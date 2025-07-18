@@ -55,9 +55,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Admin credentials
     const adminCredentials = {
-        content: { username: "contentadmin", password: "gs moviesc" },
-        user: { username: "useradmin", password: "gs moviesu" },
-        system: { username: "systemadmin", password: "gs moviess" }
+        content: { username: "contentadmin", password: "content123" },
+        user: { username: "useradmin", password: "user123" },
+        system: { username: "systemadmin", password: "system123" }
     };
 
     // Initialize the page
@@ -85,24 +85,24 @@ document.addEventListener('DOMContentLoaded', function() {
         movies = [
             { 
                 id: 1, 
-                title: 'Inception', 
-                year: 2010, 
-                poster: 'https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg', 
+                title: 'Jason statham the punisher', 
+                year: 2025, 
+                poster: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTA1i3dOozpsWyKd_XpCqAEja2H21MkBO8HDjmNvS6kMKHV4CHx-NvEBDdY3JKvxLzHNOWGHGkVbCnh2CPEIBqcNlx_2gIA5Ok_ALP6tXbZ', 
                 genre: 'sci-fi', 
-                videoUrl: 'https://www.youtube.com/embed/YoHD9XEInc0',
-                description: 'A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.',
+                videoUrl: 'https://youtu.be/RDPOSPr4clo?si=IgEoI6nTCjyJKmZ9',
+                description: 'The mafia murdered his family before his eyes, unaware that he was... the Punisher | Action Film',
                 uploadedBy: 'system',
                 uploadDate: new Date().toISOString(),
                 isPaid: false
             },
             { 
                 id: 2, 
-                title: 'The Dark Knight', 
+                title: 'Thunderbolts', 
                 year: 2008, 
-                poster: 'https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg', 
+                poster: 'https://md.goojara.to/10230475.jpg', 
                 genre: 'action', 
-                videoUrl: 'https://www.youtube.com/embed/EXeTwQWrcwY',
-                description: 'When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.',
+                videoUrl: 'https://ww1.goojara.to/m1eZeM',
+                description: 'The Thunderbolts are a team of reformed supervillains who undertake dangerous missions for the government in exchange for reduced sentences. Led by the enigmatic Baron Zemo, they navigate a world of espionage and moral ambiguity. As they confront both external threats and their own dark pasts, the team must prove that even the most notorious villains can become heroes. With high-stakes action and complex character dynamics, "Thunderbolts" explores redemption, loyalty, and the blurred lines between good and evil.',
                 uploadedBy: 'system',
                 uploadDate: new Date().toISOString(),
                 isPaid: true,
@@ -110,24 +110,24 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             { 
                 id: 3, 
-                title: 'The Shawshank Redemption', 
-                year: 1994, 
-                poster: 'https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg', 
+                title: 'Eden', 
+                year: 2025, 
+                poster: 'https://md.goojara.to/10230582.jpg', 
                 genre: 'drama', 
-                videoUrl: 'https://www.youtube.com/embed/6hB3S9bIaco',
-                description: 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.',
+                videoUrl: 'https://ww1.goojara.to/mRzeRx',
+                description: 'Driven by a deep desire for change, a group of people left society to forge a new future in the harsh landscape of the Galapagos',
                 uploadedBy: 'system',
                 uploadDate: new Date().toISOString(),
                 isPaid: false
             },
             { 
                 id: 4, 
-                title: 'Pulp Fiction', 
+                title: '', 
                 year: 1994, 
-                poster: 'https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg', 
+                poster: 'https://md.goojara.to/10217181.jpg', 
                 genre: 'drama', 
-                videoUrl: 'https://www.youtube.com/embed/s7EdQ4FqbhY',
-                description: 'The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.',
+                videoUrl: 'https://ww1.goojara.to/mEQZvq',
+                description: 'The Dramatics is a romantic comedy about a sweet, but stressed out actress, who unexpectedly lands a starring role in the sexually explicit mini-series adaptation of a best-selling, erotic chick lit novel and her loving, but tortured stoner boyfriend, who is forced to deal with it. Loosely based on the lives of Kat Foster and Scott Rodgers, who co-penned the script and co-star in the film, The Dramatics marks their first feature together and Rodger',
                 uploadedBy: 'system',
                 uploadDate: new Date().toISOString(),
                 isPaid: true,
