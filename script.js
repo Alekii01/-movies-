@@ -132,6 +132,19 @@ document.addEventListener('DOMContentLoaded', function() {
                 uploadDate: new Date().toISOString(),
                 isPaid: true,
                 price: 20
+            },
+            { 
+                id: 4, 
+                title: '', 
+                year: 2025, 
+                poster: 'https://md.goojara.to/10230581.jpg', 
+                genre: 'Horror', 
+                videoUrl: 'https://web.wootly.ch/source?id=1f461b982a8f84badce64da053fa78817ccbb766&sig=I5P6G16bQL1SfPU7lvCD-g&expire=1752847513&ofs=11&usr=194243',
+                description: 'Two priests, one in crisis with his faith and the other confronting a turbulent past, must overcome their differences to perform a risky exorcism.',
+                uploadedBy: 'system',
+                uploadDate: new Date().toISOString(),
+                isPaid: true,
+                price: 20
             }
         ];
         saveMovies();
