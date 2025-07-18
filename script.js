@@ -122,11 +122,11 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             { 
                 id: 4, 
-                title: '', 
-                year: 1994, 
-                poster: 'https://md.goojara.to/10217181.jpg', 
-                genre: 'drama', 
-                videoUrl: 'https://ww1.goojara.to/mEQZvq',
+                title: 'House III: The Horror Show (1989)', 
+                year: 1989, 
+                poster: 'https://md.goojara.to/10015915.jpg', 
+                genre: 'horror', 
+                videoUrl: 'https://web.wootly.ch/source?id=977417526a84b966e8867f35391153fd766c4a20&sig=TAwQglX44-gjP8frc2U6eA&expire=1752847792&ofs=11&usr=155554',
                 description: 'The Dramatics is a romantic comedy about a sweet, but stressed out actress, who unexpectedly lands a starring role in the sexually explicit mini-series adaptation of a best-selling, erotic chick lit novel and her loving, but tortured stoner boyfriend, who is forced to deal with it. Loosely based on the lives of Kat Foster and Scott Rodgers, who co-penned the script and co-star in the film, The Dramatics marks their first feature together and Rodger',
                 uploadedBy: 'system',
                 uploadDate: new Date().toISOString(),
@@ -134,8 +134,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 price: 20
             },
             { 
-                id: 4, 
-                title: '', 
+                id: 5, 
+                title: 'The ritual', 
                 year: 2025, 
                 poster: 'https://md.goojara.to/10230581.jpg', 
                 genre: 'Horror', 
@@ -143,8 +143,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 description: 'Two priests, one in crisis with his faith and the other confronting a turbulent past, must overcome their differences to perform a risky exorcism.',
                 uploadedBy: 'system',
                 uploadDate: new Date().toISOString(),
-                isPaid: true,
-                price: 20
+                isPaid: false,
+               
             }
         ];
         saveMovies();
