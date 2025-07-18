@@ -265,7 +265,7 @@ document.addEventListener('DOMContentLoaded', function() {
         featuredGrid.innerHTML = '';
         
         // Get featured movies (first 4)
-        const featuredMovies = filteredMovies.slice(0, 4);
+        const featuredMovies = filteredMovies.slice(0, 5);
         
         filteredMovies.forEach(movie => {
             const movieCard = createMediaCard(movie, 'movie');
